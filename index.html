@@ -1,0 +1,812 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a0bb601b8f.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+
+<body class="home">
+    <!-- <div class="loader-wrap">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+        <div class="loader-wrap-heading">
+            <span>
+                <h1>Loading...</h1>
+            </span>
+        </div>
+    </div>     -->
+    <nav class="main_menu">
+        <a class="logo" href="#">
+            <img class="img-fluid w-100" src="assets/img/logo-pia.png" alt="Pía">
+        </a>
+        <ul id="list-example" class="list-group">
+            <li>
+                <a class="list" href="#banner">
+                    <span class="quitar">
+                        <i class="menu-icon fa-solid fa-house"></i>
+                    </span>
+                    <div class="menu-text" style="position:relative;display:inline-block">
+                        INICIO
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="list" href="#about">
+                    <span>
+                        <i class="menu-icon fa-solid fa-address-card"></i>
+                    </span>
+                    <div class="menu-text" style="position:relative;display:inline-block">
+                        SOBRE&nbsp; MI </div>
+                </a>
+            </li>
+            <li>
+                <a class="list" href="#service">
+                    <span>
+                        <i class="menu-icon fa-solid fa-briefcase"></i>
+                    </span>
+                    <div class="menu-text" style="position:relative;display:inline-block">
+                        SERVICIOS
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="list" href="#skills">
+                    <span>
+                        <i class="menu-icon fa-solid fa-head-side-virus"></i>
+                    </span>
+                    <div class="menu-text" style="position:relative;display:inline-block">
+                        SKILLS
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="list" href="#portfolio">
+                    <span>
+                        <i class="menu-icon fa-solid fa-paperclip"></i>
+                    </span>
+                    <div class="menu-text" style="position:relative;display:inline-block">
+                        PORTAFOLIO
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="list" href="#contact">
+                    <span>
+                        <i class="menu-icon fa-solid fa-address-book"></i>
+                    </span>
+                    <div class="menu-text" style="position:relative;display:inline-block">
+                        CONTACTO
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="scrollspy-example" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
+            tabindex="0">
+            <section id="banner" class="tf_banner banner" style="background: url(assets/img/banner.png);">
+                <div class="container banner_1">
+                    <div class="row justify-content-between">
+                        <div class="col-xxl-6 col-md-9 col-lg-7">
+                            <div class="tf_banner_text">
+                                <h1>
+                                    Hola, Soy Pia! CREATIVE
+                                    <span class="cd-headline rotate-1">
+                                        <span class="cd-words-wrapper" style="width: 300.183px;">
+                                            <b class="is-visible">Designer</b>
+                                            <b class="is-hidden">Coder</b>
+                                            <b class="is-hidden">Player</b>
+                                        </span>
+                                    </span>
+                                </h1>
+                                <p>I'm a passionate UI/UX designer with a mission to create delightful and intuitive
+                                    digital experiences. With a strong foundation in design principles and a keen eye
+                                    for detail, I specialize in translating complex ideas into user-friendly interfaces
+                                    that captivate and engage. </p>
+                                <ul>
+                                    <li>
+                                        <a class="dowload_icon common_btn" href="#">
+                                            Descargar CV
+                                            <i class="fa-solid fa-download"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="tf_about pt_130 xs_pt_80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-9">
+                            <div class="tf_section_about mb_40">
+                                <h5 class="has-animation">
+                                    <div class="anim_line"
+                                        style="display: block; text-align: left; position: relative;">
+                                        <div class="anim_char"
+                                            style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);">
+                                            SOBRE&nbsp; MI
+                                        </div>
+                                    </div>
+                                </h5>
+                                <h2 class="has-animation">
+                                    <div class="anim_line"
+                                        style="display: block; text-align: left; position: relative;">
+                                        <div class="anim_char"
+                                            style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);">
+                                            Crafting stories through design and innovation
+                                        </div>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between">
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="tf_about_text">
+                                <ul>
+                                    <li>
+                                        <div class="top fade_bottom" data-trigerid="about"
+                                            style="translate: none; rotate: none; scale: none; transform: translate(0px); opacity: 1;">
+                                            <div class="img">
+                                                <img class="img-fluid w-100" src="assets/img/about_1.png"
+                                                    alt="Mis Ambiciones">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h3>
+                                                Mis Ambiciones
+                                            </h3>
+                                            <p>
+                                                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                                                fugit
+                                                sed thisnquia consequuntur magni dolores eos qui ratione voluptatem
+                                                sequi
+                                                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                                                amet
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="top fade:bottom" data-trigerid="about"
+                                            style="translate: none; rotate: none; scale: none; transform: translate(0px); opacity: 1;">
+                                            <div class="img">
+                                                <img src="assets/img/about_2.png" alt="">
+                                            </div>
+                                            <div>
+                                                <h3>
+                                                    Mi Propocito
+                                                </h3>
+                                                <p>
+                                                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                                                    fugit sed thisnquia consequuntur magni dolores eos qui ratione
+                                                    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
+                                                    ipsum
+                                                    quia dolor sit amet
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="tf_about_img tf_about_img">
+                                <img class="img-fluid w-100" src="assets/img/about_img_2.jpg" alt="PIA">
+                                <div class="tf_about_img_text">
+                                    <i class="fa-solid fa-award"></i>
+                                    <h4>
+                                        15+
+                                        <span>Años De Experiencia</span>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="service" class="tf_service pt_130 xs_pt_80 animation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-9 m-auto">
+                            <div class="tf_section_service mb_40">
+                                <h5 class="has-animation">
+                                    <div class="anim_line"
+                                        style="display: block; text-align: center; position: relative;">
+                                        MIS SERVICIOS
+                                    </div>
+                                </h5>
+                                <h2 class="has-animation">
+                                    <div class="anim_line"
+                                        style="display: block; text-align: center; position: relative;">
+                                        Bringing your vision to life with
+                                        <br>precision and passion
+                                    </div>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4 col-md-6 col-lg-4">
+                            <div class="tf_single_service fade_left active" data-trigerid="service"
+                                style="translate: none; rotate: none; scale: none; transform: translate(0px); opacity: 1;">
+                                <div class="text">
+                                    <span>
+                                        <i class="services-icon fa-solid fa-laptop-code"></i>
+                                    </span>
+                                    <h3>
+                                        WEBSITE DESIGN
+                                    </h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore
+                                    </p>
+                                </div>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-lg-4">
+                            <div class="tf_single_service fade_left active" data-trigerid="service"
+                                style="translate: none; rotate: none; scale: none; transform: translate(0px); opacity: 1;">
+                                <div class="text">
+                                    <span>
+                                        <i class="services-icon fa-solid fa-pen-nib"></i>
+                                    </span>
+                                    <h3>
+                                        LOGO DESIGN
+                                    </h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore
+                                    </p>
+                                </div>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-lg-4">
+                            <div class="tf_single_service fade_left active" data-trigerid="service"
+                                style="translate: none; rotate: none; scale: none; transform: translate(0px); opacity: 1;">
+                                <div class="text">
+                                    <span>
+                                        <i class="services-icon fa-solid fa-mobile-screen-button"></i>
+                                    </span>
+                                    <h3>
+                                        APPS DEVELOPMENT
+                                    </h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore
+                                    </p>
+                                </div>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section id="skills" class="tf_skills pt_115 xs_pt_75 pb_120 xs_pb_80 mt_165 xs_mt_80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-9 m-auto">
+                            <div class="tf_section_skills mb-30">
+                                <h5 class="has-animation">
+                                    <div class="anim_line"
+                                        style="display: block; text-align: center; position: relative;"></div>
+                                    MIS SKILLS
+                                </h5>
+                                <h2 class="has-animation">
+                                    Crafting Stories though Design and
+                                    <br>Imagination
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xxl-8 col-xl-10 m-auto">
+                        <ul id="pills-tab" class="nav nav-pills mb-3" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true">
+                                    Descargar Cv
+                                    <i class="fa-solid fa-download"></i>
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">
+                                    Educación
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button id="pills-contact-tab" class="nav-link" data-bs-toggle="pill"
+                                    href="#pills-contact" data-bs-target="#pills-contact" type="button" role="tab"
+                                    aria-controls="pills-contact" aria-selected="false">
+                                    Biografía
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button id="pills-disable-tab" class="nav-link" data-bs-toggle="pill"
+                                    href="#pills-disable" data-bs-target="#pills-disable" type="button" role="tab"
+                                    aria-controls="pills-disable" aria-selected="false" tabindex="-1">
+                                    Experiencia
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div id="pills-tabContent" class="tab-content">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6">
+                                        <div class="tf_single_skill fade_bottom" data-trigerid="skills"
+                                            style="translate: none; rotate: none; scale: none; transform: translate(0px); opacity: 1;">
+                                            <h3>
+                                                Curriculum Vitae
+                                            </h3>
+                                            <h2>
+                                                <a href="#">Cv Español
+                                                    <i class="fa-sharp fa-solid fa-file-arrow-down"></i>
+                                                </a>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6">
+                                        <div class="tf_single_skill fade_bottom" data-trigerid="skills"
+                                            style="translate: none; rotate: none; scale: none; transform: translate(0px); opacity: 1;">
+                                            <h3>
+                                                Curriculum Vitae
+                                            </h3>
+                                            <h2>
+                                                <a href="#">Cv English
+                                                    <i class="fa-sharp fa-solid fa-file-arrow-down"></i>
+                                                </a>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                aria-labelledby="pills-profile-tab" tabindex="0">
+                                <div class="row education">
+                                    <div class="col-xl-6 col-lg-6">
+                                        <div class="tf_single_skill fade_bottom" data-trigerid="skills"
+                                            style="translate: none; rotate: none; scale: none; transform: translate(0px); opacity: 1;">
+                                            <h3>
+                                                Carrera
+                                            </h3>
+                                            <h2>
+                                                Inacap
+                                            </h2>
+                                            <h4>
+                                                Año 2011 - 2014
+                                            </h4>
+                                            <p>
+                                                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                                                fugit sed
+                                                thisnquia consequuntur magni dolores eos qui ratione voluptatem
+                                                sequi nesciunt
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6">
+                                        <div class="tf_single_skill fade_bottom" data-trigerid="skills"
+                                            style="translate: none; rotate: none; scale: none; transform: translate(0px); opacity: 1;">
+                                            <h3>
+                                                Carrera
+                                            </h3>
+                                            <h2>
+                                                Inacap
+                                            </h2>
+                                            <h4>
+                                                Año 2011 - 2014
+                                            </h4>
+                                            <p>
+                                                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                                                fugit sed
+                                                thisnquia consequuntur magni dolores eos qui ratione voluptatem
+                                                sequi nesciunt
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="pills-contact" class="tab-pane fade" role="tabpanel"
+                                aria-labelledby="pills-contact-tab" tabindex="0">
+                                <div class="row education">
+                                    <div class="col-xl-6 col-lg-6">
+                                        <div class="tf_single_skill fade_bottom" data-trigerid="skills"
+                                            style="translate: none; rotate: none; scale: none; transform: translate(0px); opacity: 1;">
+                                            <h3>
+                                                Carrera 2
+                                            </h3>
+                                            <h2>
+                                                Inacap 2
+                                            </h2>
+                                            <h4>
+                                                Año 2011 - 2014
+                                            </h4>
+                                            <p>
+                                                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                                                fugit sed
+                                                thisnquia consequuntur magni dolores eos qui ratione voluptatem
+                                                sequi nesciunt
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6">
+                                        <div class="tf_single_skill fade_bottom" data-trigerid="skills"
+                                            style="translate: none; rotate: none; scale: none; transform: translate(0px); opacity: 1;">
+                                            <h3>
+                                                Carrera 2
+                                            </h3>
+                                            <h2>
+                                                Inacap 2
+                                            </h2>
+                                            <h4>
+                                                Año 2011 - 2014
+                                            </h4>
+                                            <p>
+                                                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                                                fugit sed
+                                                thisnquia consequuntur magni dolores eos qui ratione voluptatem
+                                                sequi nesciunt
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="pills-disable" class="tab-pane fade" role="tabpanel"
+                                aria-labelledby="pills-disable-tab">
+                                <div class="row education">
+                                    <div class="col-xl-6 col-lg-6">
+                                        <div class="tf_single_skill fade_bottom" data-trigerid="skills"
+                                            style="translate: none; rotate: none; scale: none; transform: translate(0px); opacity: 1;">
+                                            <h3>
+                                                Carrera 3
+                                            </h3>
+                                            <h2>
+                                                Inacap 3
+                                            </h2>
+                                            <h4>
+                                                Año 2011 - 2014
+                                            </h4>
+                                            <p>
+                                                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                                                fugit sed
+                                                thisnquia consequuntur magni dolores eos qui ratione voluptatem
+                                                sequi nesciunt
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6">
+                                        <div class="tf_single_skill fade_bottom" data-trigerid="skills"
+                                            style="translate: none; rotate: none; scale: none; transform: translate(0px); opacity: 1;">
+                                            <h3>
+                                                Carrera 3
+                                            </h3>
+                                            <h2>
+                                                Inacap 3
+                                            </h2>
+                                            <h4>
+                                                Año 2011 - 2014
+                                            </h4>
+                                            <p>
+                                                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                                                fugit sed
+                                                thisnquia consequuntur magni dolores eos qui ratione voluptatem
+                                                sequi nesciunt
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio" class="tf_portfolion pt_115 xs_pt_75 pb_120 xs_pb_80 mt_165 xs_mt_80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-9">
+                            <div class="tf_section_portfolio mb_40">
+                                <h5 class="has-animation">
+                                    <div class="anim_line" style="display: block; text-align: left; position: relative;">
+                                        MI PORTAFOLIO
+                                    </div>
+                                </h5>
+                                <h2 class="has-animation">
+                                    <div class="anim_line" style="display: block; text-align: left; position: relative;">
+                                        Elevate your brand to new heights with our portfolio expertise
+                                    </div>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row img-bottom">
+                        <div class="col-xl-6 col-lg-6">
+                            <a class="tf_portfolio_item play_btn" href="https://www.youtube.com/watch?v=B-ytMSuwbf8"
+                                data-cursor="Ver <br> Portafolio">
+                                <img class="img-fluid w-100" src="assets/img/5.png" alt="Portafolio">
+                                <div class="text">
+                                    <h4>
+                                        Portafolio 1
+                                    </h4>
+                                    <p>
+                                        HTML - CSS -Javascript
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-6 col-sm-6">
+                            <a class="tf_portfolio_item play_btn" href="https://vimeo.com/132528823"
+                                data-cursor="Ver <br> Portafolio">
+                                <img class="img-fluid w-100" src="assets/img/6.png" alt="Portafolio">
+                                <div class="text">
+                                    <h4>
+                                        Portafolio 2
+                                    </h4>
+                                    <p>
+                                        HTML - CSS -Javascript
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-sm-6">
+                            <a class="tf_portfolio_item play_btn"
+                                href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F159967086&show_artwork=true&maxwidth=1020&maxheight=1000&auto_play=1"
+                                data-cursor="Ver <br> Portafolio">
+                                <img class="img-fluid w-100" src="assets/img/7.png" alt="Portafolio">
+                                <div class="text">
+                                    <h4>
+                                        Portafolio 3
+                                    </h4>
+                                    <p>
+                                        HTML - CSS -Javascript
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-sm-6">
+                            <a class="tf_portfolio_item" href="assets/img/8.png" data-cursor="Ver <br> Portafolio">
+                                <img class="img-fluid w-100" src="assets/img/8.png" alt="Portafolio">
+                                <div class="text">
+                                    <h4>
+                                        Portafolio 4
+                                    </h4>
+                                    <p>
+                                        HTML - CSS -Javascript
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-sm-6">
+                            <a class="tf_portfolio_item" href="#details-popup" data-cursor="Ver <br> Portafolio">
+                                <img class="img-fluid w-800" src="assets/img/9.png" alt="Portafolio">
+                                <div class="text">
+                                    <h4>
+                                        Portafolios
+                                    </h4>
+                                    <p>
+                                        Ver más -- >
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="hwrap">
+                <div class="hmove">
+                    <div class="hitem">PHP</div>
+                    <div class="hitem">*</div>
+                    <div class="hitem">Python</div>
+                    <div class="hitem">*</div>
+                    <div class="hitem">World</div>
+                    <div class="hitem">*</div>
+                    <div class="hitem">Development1</div>
+                    <div class="hitem">*</div>
+                    <div class="hitem">PHP</div>
+                    <div class="hitem">*</div>
+                    <div class="hitem">Python</div>
+                    <div class="hitem">*</div>
+                    <div class="hitem">World</div>
+                    <div class="hitem">*</div>
+                    <div class="hitem">Development2</div>
+                    <div class="hitem">*</div>
+                    <div class="hitem">PHP</div>
+                    <div class="hitem">*</div>
+                    <div class="hitem">Python</div>
+                    <div class="hitem">*</div>
+                    <div class="hitem">World</div>
+                    <div class="hitem">*</div>
+                    <div class="hitem">Development3</div>
+                </div>
+            </div>
+
+            <!-- <section class="socials sk4-text-center">
+                <div class="sk4-container sk4-max-width-md">
+                    <div class="sk4-margin-bottom-lg">
+                        <h1>Follow us.</h1>
+                    </div>
+                    <ul class="socials__btns sk4-flex sk4-flex-center sk4-gap-sm sk4-flex-wrap">
+                        <li>
+                            <a href="#0">
+                                <svg class="sk4-icon" viewBox="0 0 32 32"><title>Follow us on Twitter</title><g><path d="M32,6.1c-1.2,0.5-2.4,0.9-3.8,1c1.4-0.8,2.4-2.1,2.9-3.6c-1.3,0.8-2.7,1.3-4.2,1.6C25.7,3.8,24,3,22.2,3 c-3.6,0-6.6,2.9-6.6,6.6c0,0.5,0.1,1,0.2,1.5C10.3,10.8,5.5,8.2,2.2,4.2c-0.6,1-0.9,2.1-0.9,3.3c0,2.3,1.2,4.3,2.9,5.5 c-1.1,0-2.1-0.3-3-0.8c0,0,0,0.1,0,0.1c0,3.2,2.3,5.8,5.3,6.4c-0.6,0.1-1.1,0.2-1.7,0.2c-0.4,0-0.8,0-1.2-0.1 c0.8,2.6,3.3,4.5,6.1,4.6c-2.2,1.8-5.1,2.8-8.2,2.8c-0.5,0-1.1,0-1.6-0.1C2.9,27.9,6.4,29,10.1,29c12.1,0,18.7-10,18.7-18.7 c0-0.3,0-0.6,0-0.8C30,8.5,31.1,7.4,32,6.1z"></path></g>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg class="sk4-icon" viewBox="0 0 32 32"><title>Follow us on Facebook</title><path d="M32,16A16,16,0,1,0,13.5,31.806V20.625H9.438V16H13.5V12.475c0-4.01,2.389-6.225,6.043-6.225a24.644,24.644,0,0,1,3.582.312V10.5H21.107A2.312,2.312,0,0,0,18.5,13v3h4.438l-.71,4.625H18.5V31.806A16,16,0,0,0,32,16Z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg class="sk4-icon" viewBox="0 0 32 32"><title>Follow us on Youtube</title><path d="M31.7,9.6c0,0-0.3-2.2-1.3-3.2c-1.2-1.3-2.6-1.3-3.2-1.4C22.7,4.7,16,4.7,16,4.7h0c0,0-6.7,0-11.2,0.3 c-0.6,0.1-2,0.1-3.2,1.4c-1,1-1.3,3.2-1.3,3.2S0,12.2,0,14.8v2.4c0,2.6,0.3,5.2,0.3,5.2s0.3,2.2,1.3,3.2c1.2,1.3,2.8,1.2,3.5,1.4 C7.7,27.2,16,27.3,16,27.3s6.7,0,11.2-0.3c0.6-0.1,2-0.1,3.2-1.4c1-1,1.3-3.2,1.3-3.2s0.3-2.6,0.3-5.2v-2.4 C32,12.2,31.7,9.6,31.7,9.6z M12.7,20.2l0-9l8.6,4.5L12.7,20.2z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg class="sk4-icon" viewBox="0 0 32 32"><title>Join our Slack channel</title><rect x="17" y="1" width="6" height="14" rx="3"></rect><rect x="1" y="9" width="14" height="6" rx="3"></rect><rect x="17" y="17" width="14" height="6" rx="3"></rect><rect x="9" y="17" width="6" height="14" rx="3"></rect><path d="M12,1a3,3,0,0,0,0,6h3V4A3,3,0,0,0,12,1Z"></path><path d="M1,20a3,3,0,0,0,6,0V17H4A3,3,0,0,0,1,20Z"></path><path d="M31,12a3,3,0,0,0-6,0v3h3A3,3,0,0,0,31,12Z"></path><path d="M20,31a3,3,0,0,0,0-6H17v3A3,3,0,0,0,20,31Z"></path>
+                                </svg>
+                            </a>
+                        </li>
+              
+                        <li>
+                            <a href="#0">
+                                <svg class="sk4-icon" viewBox="0 0 32 32"><title>Follow us on Instagram</title><path d="M16,3.7c4,0,4.479.015,6.061.087a6.426,6.426,0,0,1,4.51,1.639,6.426,6.426,0,0,1,1.639,4.51C28.282,11.521,28.3,12,28.3,16s-.015,4.479-.087,6.061a6.426,6.426,0,0,1-1.639,4.51,6.425,6.425,0,0,1-4.51,1.639c-1.582.072-2.056.087-6.061.087s-4.479-.015-6.061-.087a6.426,6.426,0,0,1-4.51-1.639,6.425,6.425,0,0,1-1.639-4.51C3.718,20.479,3.7,20.005,3.7,16s.015-4.479.087-6.061a6.426,6.426,0,0,1,1.639-4.51A6.426,6.426,0,0,1,9.939,3.79C11.521,3.718,12,3.7,16,3.7M16,1c-4.073,0-4.584.017-6.185.09a8.974,8.974,0,0,0-6.3,2.427,8.971,8.971,0,0,0-2.427,6.3C1.017,11.416,1,11.927,1,16s.017,4.584.09,6.185a8.974,8.974,0,0,0,2.427,6.3,8.971,8.971,0,0,0,6.3,2.427c1.6.073,2.112.09,6.185.09s4.584-.017,6.185-.09a8.974,8.974,0,0,0,6.3-2.427,8.971,8.971,0,0,0,2.427-6.3c.073-1.6.09-2.112.09-6.185s-.017-4.584-.09-6.185a8.974,8.974,0,0,0-2.427-6.3,8.971,8.971,0,0,0-6.3-2.427C20.584,1.017,20.073,1,16,1Z"></path><path d="M16,8.3A7.7,7.7,0,1,0,23.7,16,7.7,7.7,0,0,0,16,8.3ZM16,21a5,5,0,1,1,5-5A5,5,0,0,1,16,21Z"></path><circle cx="24.007" cy="7.993" r="1.8"></circle>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section> -->
+
+            <section id="contact" class="tf_contact pt_95 xs_pt_45">
+                <div class="container">
+                    <div class="contact-card row animation">
+                        <div class="col-xl-3 col-md-6 col-lg-3">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <i class="fa-solid fa-mobile-screen-button" alt="Movil"></i>                                        
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <i class="fa-solid fa-mobile-screen-button"></i>
+                                        <h3>Celular</h3>
+                                        <a href="callto:+56986962289" target="_blank">+569 8696 2289</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-lg-3">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <i class="fa-solid fa-envelope" alt="E-Mail"></i>                                      
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        <h3>Correo</h3>
+                                        <a href="mailto:pasten.huecheh@gmail.com">pasten.hueche@gmail.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-lg-3">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <i class="fa-brands fa-linkedin" alt="Linkein"></i>                                    
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                        <h3>Linkein</h3>
+                                        <a href="https://www.linkedin.com/in/piapasten/" target="_blank">Pía Pastén Hueche</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="col-xl-3 col-md-6 col-lg-3">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <i class="fa-brands fa-square-github" alt="Github"></i>                               
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <i class="fa-brands fa-square-github"></i>
+                                        <h3>Github</h3> 
+                                        <a href="https://github.com/ppastenh" target="_blank">ppastenh</a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="contact_form">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Your Name Here">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Subject">
+                                </div>
+                                <div class="col-lg-12">
+                                    <input type="text" placeholder="Email">
+                                </div>
+                                <div class="col-12">
+                                    <textarea row="5" placeholder="Your Message Here"></textarea>
+                                </div>
+                            </div>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <div class="footer_copyright_area mt_120 xs_mt_80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="tf_footer_copyright">
+                                <p>
+                                    © PíaPastén 2023 | All Rights Reserved
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="tf_footer_copyright">
+                                <p class="made">
+                                    Desarrollado con
+                                    <i class="fa-solid fa-heart"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="tf_footer_copyright">
+                                <p class="made">
+                                    <a class="text_hover_animaiton" href="">
+                                        Terms & Condition
+                                    </a>
+                                    <a class="text_hover_animaiton" href="">
+                                        Privacy Policy
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="progress">
+            <svg class="progress-svg" width="100%" height="100%" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" class="progress-path"></path>
+            </svg>
+        </div>
+
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
